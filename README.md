@@ -3,6 +3,17 @@
 ## Abstract:
 In metro cities we can see you a huge rush at shopping malls on holidays and weekends. This becomes even more when there are huge offers and discounts. Nowadays people purchase a variety of items and put them in the trolley. After total purchasing one should approach counter for billing purpose. By using barcode the cashier prepares the bill which is a time consuming process. This results in long queues at the billing counters. This project presents an idea to develop a system in shopping malls to overcome the above problem. To achieve this all products in the mall should be equipped with RFID tags and smart check-out counter. First of all customer must login / signup with the system. When one puts any product on RFID reader its code will be detected automatically, the item name and cost will be displayed on the LCD, thereby the cost gets added to the total bill. You need to continue this process until you complete with scanning of all the products. After completion, you may generate the bill which would be mailed to your registered account and the amount will be debited from your registered credit card. By doing this lot of time and man power can be saved.
 
+## Note
+Default the system only have one Admin only 
+<br>USERNAME:: Admin
+<br>PASSWORD:: Admin123
+
+<br><br>All the details of user are stored onto database into table userinformation which is encrypted
+<br>All the RFID and product details are stored into rfid_info table and all the data here is also encrypted 
+    
+Run Home.java file
+-
+
 ## Requirement
 #### Softwares:
  WAMP/XAMP/LAMP for MYSQL database <br> Netbeans/IntelIJ for development purpose <br>
@@ -51,6 +62,6 @@ line: 14 -> Check the your COM port of arduino connected to Arduino with LED's a
 #### In Arduino2java.java
 line: 76 -> Check the your COM port of arduino connected to Arduino with RC522 module and enter here appropriate
     one in place of "COM3" in System.setProperty("gnu.io.rxtx.SerialPorts", "COM3");
-    
+     
 For Extra Reference Please view "Smart shopping system final.pdf" or "Smart shopping system final.pptm";
 -
