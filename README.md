@@ -9,7 +9,7 @@ In metro cities we can see you a huge rush at shopping malls on holidays and wee
  JAVA 1.8 (JDK 1.8 & JRE 1.8)
 
 #### Hardware:
- Arduino UNO (2 piece / 1 piece) <br>RC522 RFID scanner module <br>Buzzer, LED's (2 RED AND 2 GREEN), Jumper Cables, 
+ Arduino UNO r3(2 piece) <br>RC522 RFID scanner module <br>Buzzer, LED's (2 RED AND 2 GREEN), Jumper Cables, 
 
 ## Setup:
  Download the zip file and extract all the folder's from it.
@@ -18,7 +18,9 @@ In metro cities we can see you a huge rush at shopping malls on holidays and wee
 
  Import the SQL file named "rfid_basedshoppingsystem" to your Database. 
 
- Attach 2 Arduino boards or one to your system and See the circuit diagram for connection reference given in "Smart shopping System final.pptm" on slide #5 & #6 and "Smart shopping system final.pdf" on page #24.  
+ Upload the arduino file named "RFID.ino" in one of the Arduino UNO from "/arduino files/RFID/RFID.ino"<br> Upload the another file named "Exit.ino" in another Arduino UNO form "/arduino files/Exit/Exit.ino".
+
+ Attach those 2 Arduino boards to your system and See the circuit diagram for connection reference given in "Smart shopping System    final.pptm" on slide #5 & #6 and "Smart shopping system final.pdf" on page #24.  
 
 #### Note: Avoid Changing Directory Structure provided to you and follow all setup steps thouroly;  
 
