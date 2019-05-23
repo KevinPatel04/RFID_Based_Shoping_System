@@ -27,11 +27,13 @@ Run Home.java file
 
  Keep this extracted folder named "RFID_Based_SmartShoppingSystem" in 'C://' only which     look like "C://RFID_Based_SmartShoppingSystem/" to avoid errors.
 
- Import the SQL file named "rfid_basedshoppingsystem" to your Database. 
-
+ Import the SQL file named "rfid_basedshoppingsystem" to your Database. You can see how to import the sql file in WAMP/XAMP/LAMP from youtube. 
+ 
  Upload the arduino file named "RFID.ino" in one of the Arduino UNO from "/arduino files/RFID/RFID.ino"<br> Upload the another file named "Exit.ino" in another Arduino UNO form "/arduino files/Exit/Exit.ino".
 
- Attach those 2 Arduino boards to your system and See the circuit diagram for connection reference given in "Smart shopping System    final.pptm" on slide #5 & #6 and "Smart shopping system final.pdf" on page #24.  
+ Attach those 2 Arduino boards to your system and See the circuit diagram for connection reference given in "Smart shopping System    final.pptm" on slide #5 & #6 and "Smart shopping system final.pdf" on page #24.
+ 
+ The jar files required by you are in  folder named "jarfiles". You can see how to add jar files to your project from youtube.
 
 #### Note: Avoid Changing Directory Structure provided to you and follow all setup steps thouroly;  
 
