@@ -18,7 +18,7 @@ In metro cities we can see you a huge rush at shopping malls on holidays and wee
 
  Import the SQL file named "rfid_basedshoppingsystem" to your Database. 
 
- Attach 2 Arduino boards or one to your system and See the circuit diagram for reference.  
+ Attach 2 Arduino boards or one to your system and See the circuit diagram for connection reference given in "Smart shopping System final.pptm" on slide #5 & #6 and "Smart shopping system final.pdf" on page #24.  
 
 #### Note: Avoid Changing Directory Structure provided to you and follow all setup steps thouroly;  
 
